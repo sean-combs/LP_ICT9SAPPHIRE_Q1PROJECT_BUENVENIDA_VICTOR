@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>GAMING MOUSE</title>
+	<style>
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: lightcoral;
+		}
+		li {
+			float: left;
+		}
+		li a {
+			display: block;
+			color: black;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+		
+		.login {
+			float: right;
+			border: lightpink;
+		}
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			background-color: lightpink;
+			font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		}
+		.column {
+			display: flex;	
+			
+		}
+		.row {
+			flex: 25%;
+			padding: 10px;
+			align-items: center;
+		}
+		a:hover {
+			text-decoration: underline;
+			background-color: darkblue;
+			color: white;
+		}
+		button:hover {
+			background-color: lightgray;
+		}
+		
+		
+
+
+		
+	</style>
+</head>
+<body>
+	
+
+	<ul>
+		<li class="title"><a class="active" href="#home">Scroll Haven</a></li>
+		<li class="shop"><a href="#news">Shop</a></li>
+		<li class="best"><a href="contact.html">Bestseller</a></li>
+		<li class="login"><a href="login.html">Login</a></li>
+	</ul>
+	
+
+	<h1>Scroll Haven: Experience Gaming Mice at Affordable Prices</h1>
+
+	<div class="column">	
+		<div class="row">
+			<a href="https://ecommerce.datablitz.com.ph/products/logitech-pro-x-superlight-wireless-gaming-mouse-white">
+				<img src="superlight.jpg" alt="Logitech G PRO Superlight gaming mouse in white color" width="100%">
+			</a>
+			<p>Logitech G PRO Superlight - Weighs 63 grams, priced at 3,000 PHP.</p>
+		</div>
+		<div class="row">
+			<a href="https://attackshark.com/products/attack-shark-x3-wireless-gaming-mouse-paw3395?srsltid=AfmBOoqvJguw3H8nYsPuIH1MP8-nqsMlDlSFqSyqjaALKL8EWhy6dyKc">
+				<img src="attack shark x3.jpeg" alt="Attack Shark X3 gaming mouse" width="100%">
+			</a>
+			<p>Attack Shark X3 - Weighs 49 grams, priced at 2,000 PHP.</p>
+		</div>
+		<div class="row">
+			<a href="https://ecommerce.datablitz.com.ph/products/glorious-model-o-wireless-gaming-mouse-matte-black">
+				<img src="glorious model o.jpeg" alt="Glorious Model O Wireless gaming mouse" width="100%">
+			</a>
+			<p>Glorious Model O Wireless - Weighs 68 grams, priced at 1,500 PHP.</p>
+		</div>
+	</div>
+	
+
+	<br>
+	
+		<label>Here are links for more info about the gaming mice:</label>
+		
+			<p><a href="https://ecommerce.datablitz.com.ph/products/logitech-pro-x-superlight-wireless-gaming-mouse-white">Logitech G PRO Superlight</a></p>
+			<br>
+			<p><a href="https://attackshark.com/products/attack-shark-x3-wireless-gaming-mouse-paw3395?srsltid=AfmBOoqvJguw3H8nYsPuIH1MP8-nqsMlDlSFqSyqjaALKL8EWhy6dyKc">Attack Shark X3</a></p>
+			<br>
+			<p><a href="https://ecommerce.datablitz.com.ph/products/glorious-model-o-wireless-gaming-mouse-matte-black">Glorious Model O Wireless</a></p>
+			<br>
+		
+	
+
+	<br>
+	<form action="#" method="post"> 
+		<label>Feedback:</label>
+		<br>
+		<textarea name="feedback" cols="20" rows="10" placeholder="Type here"></textarea> 
+		<br>
+		<button type="reset">Reset</button>
+	</form>
+
+	<br>
+	<form>
+		<label for="Option">Rate the website :)</label>
+		<select id="Option" name="rating">
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+		</select>	
+	</form>
+
+	<br>
+	<form>
+		<label for="recommendation">Add recommendations for more mouse:</label>
+		<input type="text" id="recommendation" name="recommendation" placeholder="Type here">
+		<button type="button">Add Recommendation</button>
+		<input type="submit" value="Submit">
+	</form>
+	
+</body> 
+</html>
